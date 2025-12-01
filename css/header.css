@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+	margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.head-part {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 140px;
+	background-color: #009A37;
+}
+
+#h-left img {
+	width: 145px;
+    background-color: white;
+}
+
+.header-title {
+	color: white;
+    margin-left: 20px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+	width: 300px;
+	text-align: center;
+	
+}
+
+.title-jp {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title-en {
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.header-nav {
+    display: flex;
+	justify-content: center;
+    gap: 100px;
+	width: 400px;
+    
+}
+
+.nav-item {
+	color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.nav-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+/* --- ユーザー名 --- */
+.header-user {
+	color: white;
+	text-align: right;
+	margin-right: 35px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #009A37;
+}

@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+/* 検索ボックス */
+.search{
+    width: 80%;     
+    margin: 0 auto;  
+    display: flex;
+    gap: 10px;
+}
+
+.search-box{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 2px solid #009A37;
+}
+
+.search-button{
+    width: 150px;
+    height: 65px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #009A37;
+    border: none;
+}
+
+/* ーーーーーー */
+
+/* 企業テーブル */
+
+.company-r {
+    border-bottom: 2px solid #009A37;
+}
+
+.company-table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px auto;
+}
+
+.company-table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.held,
+.request {
+    color: red;
+}
+
+.company-h {
+    color: #009A37;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 列幅の指定 */
+.company-h:nth-child(1),
+.company-table td:nth-child(1) {
+    width: 35%;
+}
+
+/* 企業名 */
+.company-h:nth-child(2),
+.company-table td:nth-child(2) {
+    width: 15%;
+}
+
+/* 開催有無 */
+.company-h:nth-child(3),
+.company-table td:nth-child(3) {
+    width: 15%;
+}
+
+/* 申請状況 */
+.company-h:nth-child(4),
+.company-table td:nth-child(4) {
+    width: 20%;
+}
+
+/* 卒業生人数 */
+.company-h:nth-child(5),
+.company-table td:nth-child(5) {
+    width: 15%;
+}
+
+/* 詳細ボタン */
+td a{
+    text-decoration: none;
+}
+
+/* セル(td)も同じ幅で揃える */
+.company-table td:nth-child(1) {
+    width: 35%;
+}
+
+.company-table td:nth-child(2) {
+    width: 15%;
+}
+
+.company-table td:nth-child(3) {
+    width: 15%;
+}
+
+.company-table td:nth-child(4) {
+    width: 20%;
+}
+
+.company-table td:nth-child(5) {
+    width: 15%;
+}
+
+/* ーーー詳細/申請ーーー */
+.top-info{
+    width: 80%;     
+    margin: 50px auto;  
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.company, .event{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.company-title,.event-title,.gra-title{
+    color: #009A37;
+    font-size: 20px;
+}
+
+.company-name{
+    font-size: 30px;
+}
+
+.event-info{
+    font-size: 20px;
+}
+
+/* テーブル */
+.gra-table{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;  
+}
+
+.gra-table tr{
+    border-bottom: 1px solid #009A37;    
+}
+
+.gra-table td{
+    /* padding: 20px 0px; */
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.gra-info{
+    font-size: 30px;
+    height: 80px;
+}
+
+.gra-table th:nth-child(1),
+.gra-table td:nth-child(1) {
+    width: 20%;
+}
+
+.gra-table th:nth-child(2),
+.gra-table td:nth-child(2) {
+    width: 50%;
+}
+
+.gra-table th:nth-child(3),
+.gra-table td:nth-child(3) {
+    width: 30%;
+}
+
+/* 下のボタンたち */
+
+.bottom-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 10%;
+}
+
+.bottom-btn button{
+    font-size: 10%;
+    color: white;
+    background-color: #009A37;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+/* ーーー開催一覧画面ーーー */
+
+/* ページからのメッセージ */
+.page-msg{
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* 開催テーブル */
+.event-table{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;  
+}
+
+.event-h{
+    color: #009A37;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-table td{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* ーーー開催詳細ーーー */
+
+/* 詳細情報 */
+.detail{
+    margin-top: 50px;
+    margin-left: 10%;
+    
+}
+
+.detail-row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 50px;
+}
+
+.detail-title{
+    color: #009A37;
+    font-size: 20px;
+}
+
+.detail-company{
+    font-size: 30px;
+}
+
+.detail-data{
+    font-size: 25px;
+}
+
+/* 参加・不参加ボタン */
+.entry-btn{
+    display: flex;
+    gap: 50px;
+}
+
+/* ーーー参加一覧/履歴ーーー */
+
+/* 参加一覧、履歴 */
+.join-history{
+    width: 80%;
+    margin: 30px auto;
+    
+}
+
+.join-history-title{
+    font-size: 25px;   
+    border-left: 2px solid #009A37;
+    margin: 20px 0px;
+}
+
+/* 参加一覧、履歴テーブル */
+.join-history-table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.join-history-table td{
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.join-history-table tr{
+    border-bottom: 1px solid #009A37;
+}
+
+.join-history-table td:nth-child(1) {
+    width: 60%;
+    text-align: left;
+}
+
+.join-history-table td:nth-child(2),
+.join-history-table td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
