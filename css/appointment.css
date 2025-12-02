@@ -4,7 +4,7 @@
 .page-title {
     text-align: center;
     color: #009A37;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -42,12 +42,12 @@
 }
 
 .menu-item img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin: 0px;
 }
 
 .menu-item span {
-    font-size: 30px;
+    font-size: 20px;
     color: #333;
 }

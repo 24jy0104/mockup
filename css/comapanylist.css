@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/* リスト形式の時の列名の文字サイズは15px,データは18px
+それ以外は基本的に20px,大きめの文字は25px,項目名等小さい文字は15px*/
+
 
 /* 検索ボックス */
 .search{
@@ -10,18 +13,18 @@
 
 .search-box{
     width: 250px;
-    height: 50px;
-    font-size: 30px;
-    margin-top: 20px;
+    height: 15px;
+    font-size: 15px;
+    margin-top: 30px;
     padding: 5px 10px;
     border: 2px solid #009A37;
 }
 
 .search-button{
-    width: 150px;
-    height: 65px;
-    margin-top: 20px;
-    font-size: 30px;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 15px;
     color: white;
     background-color: #009A37;
     border: none;
@@ -45,7 +48,7 @@
 .company-table td {
     padding: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .held,
@@ -55,7 +58,7 @@
 
 .company-h {
     color: #009A37;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
 }
@@ -134,11 +137,11 @@ td a{
 
 .company-title,.event-title,.gra-title{
     color: #009A37;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .company-name{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .event-info{
@@ -165,7 +168,7 @@ td a{
 }
 
 .gra-info{
-    font-size: 30px;
+    font-size: 18px;
     height: 80px;
 }
 
@@ -197,7 +200,7 @@ td a{
 }
 
 .bottom-btn button{
-    font-size: 10%;
+    font-size: 15px;
     color: white;
     background-color: #009A37;
     border: none;
@@ -211,6 +214,8 @@ td a{
 .page-msg{
     text-align: center;
     margin: 30px auto;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 /* 開催テーブル */
@@ -224,7 +229,7 @@ td a{
 
 .event-h{
     color: #009A37;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
 }
@@ -232,7 +237,7 @@ td a{
 .event-table td{
     padding: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 /* ーーー開催詳細ーーー */
@@ -248,20 +253,20 @@ td a{
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 30px 50px;
+    padding: 20px 50px;
 }
 
 .detail-title{
     color: #009A37;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .detail-company{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .detail-data{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* 参加・不参加ボタン */
@@ -280,9 +285,10 @@ td a{
 }
 
 .join-history-title{
-    font-size: 25px;   
+    font-size: 20px;   
     border-left: 2px solid #009A37;
     margin: 20px 0px;
+    padding-left: 10px;
 }
 
 /* 参加一覧、履歴テーブル */
@@ -293,7 +299,7 @@ td a{
 }
 
 .join-history-table td{
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 15px;
 }
 
