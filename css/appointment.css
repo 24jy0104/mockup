@@ -10,34 +10,42 @@
 }
 
 /* ーーーログイン画面ーーー */
-.page-subtitle{
+.page-subtitle {
     text-align: center;
     font-size: 25px;
 }
 
-.login-button{
+.login-button {
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
 
-/* メニューを2×2で配置 */
+/* メニューを左2・右2で配置（生徒画面） */
 .apo-menu {
-    width: 100%;
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px 30px;
-    justify-items: center;
+    gap: 50px 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* メニューを左3・右2で配置（職員画面） */
+.apo-menu-staff {
+    max-width: 550px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 40px;
 }
 
 /* 各メニュー */
 .menu-item {
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 20px;
+    align-items: center;
     cursor: pointer;
 }
 

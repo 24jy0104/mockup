@@ -1,0 +1,87 @@
+/* ーーー情報編集画面ーーー */
+.companyname-position{
+    width: 80%;     
+    margin: 50px auto;  
+    display: flex;
+    gap: 150px;
+    /* justify-content: center; */
+    justify-content: left;
+    align-items: center;
+}
+
+.company-edit{
+    font-size: 15px;
+}
+
+.company-edit a{
+    text-decoration: none;
+}
+
+/* 情報編集画面テーブル（６行） */
+.graduate-r {
+    border-bottom: 2px solid #009A37;
+}
+
+.graduate-table {
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 10px auto;
+}
+
+.graduate-table td {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.delate {
+    color: red;
+}
+
+.graduate-h {
+    color: #009A37;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 列幅の指定 */
+/* 卒業年次 */
+.graduate-h:nth-child(1),
+.graduate-table td:nth-child(1) {
+    width: 10%;
+}
+
+/* 名前 */
+.graduate-h:nth-child(2),
+.graduate-table td:nth-child(2) {
+    width: 10%;
+}
+
+/* 学科 */
+.graduate-h:nth-child(3),
+.graduate-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 職種 */
+.graduate-h:nth-child(4),
+.graduate-table td:nth-child(4) {
+    width: 20%;
+}
+
+/* メールアドレス */
+.graduate-h:nth-child(5),
+.graduate-table td:nth-child(5) {
+    width: 30%;
+}
+
+/* 編集・削除 */
+.graduate-h:nth-child(5),
+.graduate-table td:nth-child(5) {
+    width: 10%;
+}
+
+
+
