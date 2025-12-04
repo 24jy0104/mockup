@@ -35,19 +35,20 @@
 /* 企業テーブル */
 
 .company-r {
-    border-bottom: 2px solid #009A37;
+    border-bottom: 1px solid #009A37;
 }
 
 .company-table {
     width: 80%;
+    margin: 20px auto;
     border-collapse: collapse;
     table-layout: fixed;
-    margin: 20px auto;
+    text-align: center;
 }
 
 .company-table td {
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
 }
 
@@ -195,7 +196,7 @@ td a{
     width: 100%;
     padding: 0px 10%;
     box-sizing: border-box;
-    position: fixed;
+    /* position: fixed; */
     bottom: 10%;
 }
 
@@ -246,7 +247,6 @@ td a{
 .detail{
     margin-top: 50px;
     margin-left: 10%;
-    
 }
 
 .detail-row{
@@ -281,7 +281,6 @@ td a{
 .join-history{
     width: 80%;
     margin: 30px auto;
-    
 }
 
 .join-history-title{

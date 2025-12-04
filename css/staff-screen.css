@@ -1,0 +1,214 @@
+/* ーーー情報編集画面ーーー */
+.companyname-position {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    gap: 150px;
+    /* justify-content: center; */
+    justify-content: left;
+    align-items: center;
+}
+
+.company-edit {
+    font-size: 15px;
+}
+
+.company-edit a {
+    text-decoration: none;
+}
+
+.delate {
+    color: red;
+}
+
+/* テーブル*/
+.graduate-r {
+    border-bottom: 1px solid #009A37;
+}
+
+.graduate-table {
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 10px auto;
+}
+
+.graduate-table td {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.graduate-h,
+.request-h {
+    color: #009A37;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.graduate-r {
+    height: 20px;
+}
+
+/* 列幅の指定 */
+/* 卒業年次 */
+.graduate-h:nth-child(1),
+.graduate-table td:nth-child(1) {
+    width: 7%;
+}
+
+/* 名前 */
+.graduate-h:nth-child(2),
+.graduate-table td:nth-child(2) {
+    width: 15%;
+}
+
+/* 学科 */
+.graduate-h:nth-child(3),
+.graduate-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 職種 */
+.graduate-h:nth-child(4),
+.graduate-table td:nth-child(4) {
+    width: 20%;
+}
+
+/* メールアドレス */
+.graduate-h:nth-child(5),
+.graduate-table td:nth-child(5) {
+    width: 30%;
+}
+
+/* 編集・削除 */
+.graduate-h:nth-child(6),
+.graduate-table td:nth-child(5) {
+    width: 5%;
+}
+
+/* -----申請者一覧画面------*/
+
+/* テーブル */
+.request-info {
+    border-bottom: 1px solid #009A37;
+    height: 60px;
+}
+
+
+.request-table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 10px auto;
+}
+
+.request-table td {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.request-h {
+    color: #009A37;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 列幅の指定 */
+/* 名前 */
+.request-h:nth-child(1),
+.request-table td:nth-child(1) {
+    width: 20%;
+}
+
+/* 学科 */
+.request-h:nth-child(2),
+.request-table td:nth-child(2) {
+    width: 30%;
+}
+
+/* 学籍番号 */
+.request-h:nth-child(3),
+.request-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 時間 */
+.request-h:nth-child(4),
+.request-table td:nth-child(4) {
+    width: 30%;
+}
+
+/* ----開催一覧/履歴----- */
+
+.eventlist {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.eventlist-title {
+    font-size: 20px;
+    border-left: 2px solid #009A37;
+    margin: 20px 0px;
+    padding-left: 10px;
+}
+
+/* テーブル */
+.eventlist-info {
+    border-bottom: 1px solid #009A37;
+    height: 60px;
+}
+
+
+.eventlist-table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 10px auto;
+}
+
+.eventlist-table td {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.eventlist-h {
+    color: #009A37;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 列幅の指定 */
+/* 企業名 */
+.eventlist-h:nth-child(1),
+.eventlist-table td:nth-child(1) {
+    width: 30%;
+}
+
+/* 開催詳細リンク */
+.eventlist-h:nth-child(2),
+.eventlist-table td:nth-child(2) {
+    width: 10%;
+}
+
+/* 開催状況 */
+.eventlist-h:nth-child(3),
+.eventlist-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 参加人数 */
+.eventlist-h:nth-child(4),
+.eventlist-table td:nth-child(4) {
+    width: 10%;
+} 
+
+
+
+
+

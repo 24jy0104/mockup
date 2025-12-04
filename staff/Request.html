@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comapanylist.css">
+    <link rel="stylesheet" href="../css/staff-screen.css">
     <title>申請者一覧（職員）</title>
 </head>
 
@@ -39,64 +40,60 @@
 
     </header>
 
-    <main>
-        <div class="top-info">
-            <div class="company">
-                <div class="company-title">企業名</div>
-                <div class="company-name">アイティフォー</div>
+    <div class="wrapper">
+        <main class="content">
+            <div class="companyname-position">
+                <div class="company">
+                    <div class="company-title">企業名</div>
+                    <div class="company-name">アイティフォー</div>
+                </div>
+
+                <!-- 開催詳細-->
+                <div class="event">
+                    <div class="event-title">開催情報</div>
+                    <div class="event-info">12月16日(水)17時～18時 172教室(本館７階)</div>
+                </div>
             </div>
 
-            <!-- 開催詳細-->
-            <div class="event">
-                <div class="event-title">開催情報</div>
-                <div class="event-info">12月16日(水)17時～18時 172教室(本館７階)</div>
+            <table class="request-table">
+
+                <tr class="request-info">
+                    <th class="request-h">名前</th>
+                    <th class="request-h">学科</th>
+                    <th class="request-h">学籍番号</th>
+                    <th class="request-h"> 時間</th>
+                </tr>
+
+                <tr class="request-info">
+                    <td>河原田こうき</td>
+                    <td>情報システム開発科</td>
+                    <td>24jy0119</td>
+                    <td>2025:11/11</td>
+                </tr>
+
+                <tr class="request-info">
+                    <td>河原田こうき</td>
+                    <td>情報システム開発科</td>
+                    <td>24jy0119</td>
+                    <td>2025:11/11</td>
+                </tr>
+
+                <tr class="request-info">
+                    <td>河原田こうき</td>
+                    <td>情報システム開発科</td>
+                    <td>24jy0119</td>
+                    <td>2025:11/11</td>
+                </tr>
+
+            </table>
+
+            <div class="bottom-btn">
+                <!-- 戻るボタン　左側 -->
+                <button type="button" onclick="location.href='./CompanyList.html'">企業一覧に戻る</button>
             </div>
-        </div>
 
-        <table class="gra-table">
-
-            <tr class="gra-title">
-                <th>名前</th>
-                <th>学科</th>
-                <th>学籍番号</th>
-                <th>時間</th>
-            </tr>
-
-            <tr class="gra-info">
-                <td>河原田こうき</td>
-                <td>情報システム開発科</td>
-                <td>24jy0119</td>
-                <td>2025:11/11</td>
-            </tr>
-
-            <tr class="gra-info">
-                <td>河原田こうき</td>
-                <td>情報システム開発科</td>
-                <td>24jy0119</td>
-                <td>2025:11/11</td>
-            </tr>
-
-            <tr class="gra-info">
-                <td>河原田こうき</td>
-                <td>情報システム開発科</td>
-                <td>24jy0119</td>
-                <td>2025:11/11</td>
-            </tr>
-
-            <tr class="gra-info">
-                <td>26卒</td>
-                <td>情報システム開発科</td>
-                <td>SE</td>
-            </tr>
-
-        </table>
-
-        <div class="bottom-btn">
-            <!-- 戻るボタン　左側 -->
-            <button type="button" onclick="location.href='./CompanyList.html'">企業一覧に戻る</button>
-        </div>
-
-    </main>
+        </main>
+    </div>
 
     <footer>
         <p><small>&copy; 2024 Example Inc.</small></p>

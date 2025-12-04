@@ -21,22 +21,13 @@
     text-decoration: none;
 }
 
-/* メニューを左2・右2で配置（生徒画面） */
-.apo-menu {
+/* メニューを左右で配置 */
+.apo-menu, .apo-menu-staff {
     max-width: 500px;
     margin: 0 auto;
     display: grid;
     gap: 50px 40px;
     grid-template-columns: repeat(2, 1fr);
-}
-
-/* メニューを左3・右2で配置（職員画面） */
-.apo-menu-staff {
-    max-width: 550px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px 40px;
 }
 
 /* 各メニュー */
