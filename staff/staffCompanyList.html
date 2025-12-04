@@ -1,0 +1,97 @@
+<!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%> -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/appointment.css">
+    <link rel="stylesheet" href="../css/comapanylist.css">
+    <title>卒業生アポイントメント画面（職員）</title>
+</head>
+
+<body>
+    <header class="head-part">
+        <div id="h-left">
+            <img src="../img/rogo.png" alt="アイコン">
+        </div>
+
+        <div class="header-title">
+            <div class="title-jp">就活サポート</div>
+            <div class="title-en">Career Support</div>
+        </div>
+
+        <nav class="header-nav">
+            <div class="nav-item" onclick="location.href='./staffAppointMenu.html'">
+                <img src="../img/icon1.png" alt="卒業生アポイントメント">
+                <span>卒業生アポイントメント</span>
+            </div>
+
+            <div class="nav-item">
+                <img src="../img/icon2.png" alt="ブース予約">
+                <span>ブース予約</span>
+            </div>
+        </nav>
+
+        <div class="header-user">
+            ようこそ 24jy0119 さん
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="search">
+            <input type="text" placeholder="企業名入力" class="search-box">
+            <button type="button" class="search-button">検索</button>
+        </div>
+
+        <table class="company-table">
+            <tr class="company-r">
+                <th class="company-h">企業名</th>
+                <th class="company-h"></th>
+                <th class="company-h">状況</th>
+                <th class="company-h">申請数</th>
+                <th class="company-h">開催詳細/登録</th>
+            </tr>
+
+            <tr class="company-r">
+                <td>アイティフォー</td>
+                <td><a href="EditInfo.html">情報編集</a></td>
+                <td class="held">開催</td>
+                <td>
+                    <p><a href="RequestList.html">申請者一覧</a></p>
+                    <p>150</p>
+                </td>
+                <td><a href="EventDetail.html">開催詳細</a></td>
+            </tr>
+
+            <tr class="company-r">
+                <td>アイティフォーーーーーーーーーー</td>
+                <td><a href="EditInfo.html">情報編集</a></td>
+                <td class="request">申請済</td>
+                <td>150</td>
+                <td><a href="studentRequest.html">詳細/申請</a></td>
+            </tr>
+
+            <tr class="company-r">
+                <td>アイティフォー</td>
+                <td class="held">開催</td>
+                <td class="request">申請済</td>
+                <td>150</td>
+                <td><a href="studentRequest.html">詳細/申請</a></td>
+            </tr>
+
+        </table>
+
+
+    </main>
+
+    <footer>
+        <p><small>&copy; 2024 Example Inc.</small></p>
+    </footer>
+
+</body>
+
+</html>
