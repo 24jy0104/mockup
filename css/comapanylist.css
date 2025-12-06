@@ -1,67 +1,42 @@
 @charset "UTF-8";
 /* リスト形式の時の列名の文字サイズは15px,データは18px
-それ以外は基本的に20px,大きめの文字は25px,項目名等小さい文字は15px*/
+それ以外は基本的に18px,大きめの文字は20px,項目名等小さい文字は15px*/
 
-
+/* ----企業一覧画面----- */
 /* 検索ボックス */
-.search{
+/* .search{
     width: 80%;     
     margin: 0 auto;  
     display: flex;
     gap: 10px;
+} */
+
+.search {
+    display: flex;
+    gap: 15px;
 }
 
-.search-box{
+.search-box {
     width: 250px;
     height: 15px;
     font-size: 15px;
-    margin-top: 30px;
     padding: 5px 10px;
     border: 2px solid #009A37;
 }
 
-.search-button{
+.search-button {
     width: 80px;
     height: 30px;
-    margin-top: 30px;
     font-size: 15px;
     color: white;
     background-color: #009A37;
     border: none;
+    padding: 0px 0px;
 }
-
-/* ーーーーーー */
 
 /* 企業テーブル */
-
-.company-r {
-    border-bottom: 1px solid #009A37;
-}
-
-.company-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    table-layout: fixed;
-    text-align: center;
-}
-
-.company-table td {
-    padding: 10px;
-    /* text-align: center; */
-    font-size: 18px;
-}
-
-.held,
-.request {
+.held {
     color: red;
-}
-
-.company-h {
-    color: #009A37;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
 }
 
 /* 列幅の指定 */
@@ -94,85 +69,51 @@
     width: 15%;
 }
 
-/* 詳細ボタン */
-td a{
-    text-decoration: none;
-}
-
-/* セル(td)も同じ幅で揃える */
-.company-table td:nth-child(1) {
-    width: 35%;
-}
-
-.company-table td:nth-child(2) {
-    width: 15%;
-}
-
-.company-table td:nth-child(3) {
-    width: 15%;
-}
-
-.company-table td:nth-child(4) {
-    width: 20%;
-}
-
-.company-table td:nth-child(5) {
-    width: 15%;
-}
-
-/* ーーー詳細/申請ーーー */
-.top-info{
-    width: 80%;     
-    margin: 50px auto;  
-    display: flex;
-    gap: 150px;
-    justify-content: center;
-    align-items: center;
-}
-
-.company, .event{
+/* ーーー詳細/申請画面ーーー */
+/* .company,
+.event {
     display: flex;
     gap: 30px;
     align-items: center;
-}
+} */
 
-.company-title,.event-title,.gra-title{
-    color: #009A37;
-    font-size: 15px;
-}
-
-.company-name{
+.company-name {
     font-size: 25px;
 }
 
-.event-info{
-    font-size: 20px;
+.request {
+    color: red;
 }
 
+/* .event-info{
+    font-size: 20px;
+} */
+
 /* テーブル */
-.gra-table{
-    width: 80%;
+.gra-table {
+    /* width: 80%;
     margin: 20px auto;
     text-align: center;
     border-collapse: collapse;
-    table-layout: fixed;  
+    table-layout: fixed;   */
 }
 
-.gra-table tr{
-    border-bottom: 1px solid #009A37;    
+.gra-table tr {
+    /* border-bottom: 1px solid #009A37;     */
 }
 
-.gra-table td{
-    /* padding: 20px 0px; */
-    word-wrap: break-word;
-    word-break: break-all;
+.gra-table td {
+    /* padding: 20px 0px;
+    overflow-wrap: break-word;
+    word-break: break-all; */
 }
 
-.gra-info{
-    font-size: 18px;
-    height: 80px;
+.gra-info {
+    /* font-size: 18px; */
+    /* height: 80px; */
 }
 
+/* 列幅の指定 */
 .gra-table th:nth-child(1),
 .gra-table td:nth-child(1) {
     width: 20%;
@@ -188,124 +129,83 @@ td a{
     width: 30%;
 }
 
-/* 下のボタンたち */
-
-.bottom-btn{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0px 10%;
-    box-sizing: border-box;
-    /* position: fixed; */
-    bottom: 10%;
-}
-
-.bottom-btn button{
-    font-size: 15px;
-    color: white;
-    background-color: #009A37;
-    border: none;
-    padding: 10px 20px;
-}
-
-
 /* ーーー開催一覧画面ーーー */
 
 /* ページからのメッセージ */
-.page-msg{
+.page-msg {
     text-align: center;
-    margin: 30px auto;
-    font-size: 20px;
+    /* margin: 30px auto;
+    font-size: 20px; */
     font-weight: normal;
 }
 
 /* 開催テーブル */
-.event-table{
-    width: 80%;
+.event-table {
+    /* width: 80%;
     margin: 20px auto;
     text-align: center;
     border-collapse: collapse;
-    table-layout: fixed;  
+    table-layout: fixed;   */
 }
 
-.event-h{
-    color: #009A37;
+.event-h {
+    /* color: #009A37;
     font-size: 15px;
     padding: 10px;
-    text-align: center;
+    text-align: center; */
 }
 
-.event-table td{
-    padding: 20px;
+.event-table td {
+    /* padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px; */
 }
 
 /* ーーー開催詳細ーーー */
 
-/* 詳細情報 */
-.detail{
-    margin-top: 50px;
-    margin-left: 10%;
+/* 詳細情報を右側に少しずらす */
+.detail {
+    /* margin-top: 50px; */
+    /* margin-left: 10%; */
 }
 
-.detail-row{
+.detail-row {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 20px 50px;
+    padding: 0px 0px 30px 0px;
 }
 
-.detail-title{
-    color: #009A37;
-    font-size: 15px;
-}
-
-.detail-company{
+.detail-company {
     font-size: 25px;
 }
 
-.detail-data{
+.detail-data {
     font-size: 20px;
+    padding-right: 20px;
 }
 
 /* 参加・不参加ボタン */
-.entry-btn{
+.entry-btn {
     display: flex;
     gap: 50px;
 }
 
-/* ーーー参加一覧/履歴ーーー */
+/* ーーー参加一覧/履歴画面（生徒）ーーー */
 
 /* 参加一覧、履歴 */
-.join-history{
+.join-history {
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
-.join-history-title{
-    font-size: 20px;   
+.join-history-title {
+    font-size: 20px;
     border-left: 2px solid #009A37;
-    margin: 20px 0px;
     padding-left: 10px;
 }
 
-/* 参加一覧、履歴テーブル */
-.join-history-table{
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-.join-history-table td{
-    font-size: 18px;
-    padding: 10px 15px;
-}
-
-.join-history-table tr{
-    border-bottom: 1px solid #009A37;
-}
-
+/* 列幅の指定 */
 .join-history-table td:nth-child(1) {
     width: 60%;
     text-align: left;
@@ -316,3 +216,234 @@ td a{
     width: 20%;
     text-align: center;
 }
+
+/* ーーー情報編集画面(職員）ーーー */
+.company-edit {
+    font-size: 15px;
+}
+
+.delate {
+    color: red;
+}
+
+/* テーブル*/
+.graduate-r {
+    /* border-bottom: 1px solid #009A37; */
+}
+
+.graduate-table {
+    /* width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 10px auto; */
+}
+
+.graduate-table td {
+    /* padding: 0px 10px;
+    text-align: center;
+    font-size: 18px; */
+}
+
+.graduate-r {
+    /* height: 20px; */
+}
+
+/* 列幅の指定 */
+/* 卒業年次 */
+.graduate-h:nth-child(1),
+.graduate-table td:nth-child(1) {
+    width: 7%;
+}
+
+/* 名前 */
+.graduate-h:nth-child(2),
+.graduate-table td:nth-child(2) {
+    width: 15%;
+}
+
+/* 学科 */
+.graduate-h:nth-child(3),
+.graduate-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 職種 */
+.graduate-h:nth-child(4),
+.graduate-table td:nth-child(4) {
+    width: 20%;
+}
+
+/* メールアドレス */
+.graduate-h:nth-child(5),
+.graduate-table td:nth-child(5) {
+    width: 30%;
+}
+
+/* 編集・削除 */
+.graduate-h:nth-child(6),
+.graduate-table td:nth-child(5) {
+    width: 5%;
+}
+
+/* -----申請者一覧画面（職員）------*/
+.request-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 列幅の指定 */
+/* 名前 */
+.request-h:nth-child(1),
+.request-table td:nth-child(1) {
+    width: 20%;
+}
+
+/* 学科 */
+.request-h:nth-child(2),
+.request-table td:nth-child(2) {
+    width: 30%;
+}
+
+/* 学籍番号 */
+.request-h:nth-child(3),
+.request-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 時間 */
+.request-h:nth-child(4),
+.request-table td:nth-child(4) {
+    width: 30%;
+}
+
+/* ----開催一覧/履歴（職員）----- */
+.eventlist {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.eventlist-title {
+    font-size: 20px;
+    border-left: 2px solid #009A37;
+    padding-left: 10px;
+}
+
+.event-cancel {
+    color: red;
+}
+
+/* 列幅の指定 */
+/* 企業名 */
+.eventlist-h:nth-child(1),
+.eventlist-table td:nth-child(1) {
+    width: 30%;
+}
+
+/* 開催詳細リンク */
+.eventlist-h:nth-child(2),
+.eventlist-table td:nth-child(2) {
+    width: 10%;
+}
+
+/* 開催状況 */
+.eventlist-h:nth-child(3),
+.eventlist-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* 参加人数 */
+.eventlist-h:nth-child(4),
+.eventlist-table td:nth-child(4) {
+    width: 10%;
+}
+
+/* ーーー開催詳細画面（職員）ーーー*/
+/* 生徒画面と同じcssを使用css*/
+
+
+/*ーーー参加者一覧画面（職員）ーーー */
+/* 列幅の指定 */
+/* 名前 */
+.joinlist-h:nth-child(1),
+.joinlist-table td:nth-child(1) {
+    width: 30%;
+}
+
+/*学科*/
+.joinlist-h:nth-child(2),
+.joinlist-table td:nth-child(2) {
+    width: 40%;
+}
+
+/* 学籍番号 */
+.joinlist-h:nth-child(3),
+.joinlist-table td:nth-child(3) {
+    width: 20%;
+}
+
+/* ーーー卒業生情報入力画面ーーー */
+.regist-input-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 30px 0px;
+}
+
+/* .regist-input-item input, 
+.regist-input-item .input-note{
+    align-items: left;
+} */
+
+
+.split-screen {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.left-screen,
+.right-screen {
+    align-items: left;
+    padding-left: 20px;
+}
+
+.regist-input-title {
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: #009A37;
+}
+
+.flame{
+    width: 450px;
+    height: 350px;
+    background-color: #a9e2bd;
+    align-items: left;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+}
+
+.input-note{
+    font-size: 13px;
+    color: #666; /* グレーで軽く注意 */
+    margin-top: 5px;
+}
+
+.input-and-note{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.regist-input-item input{
+    height:25px;
+}
+
+.align{
+    align-items: flex-start; 
+}
+

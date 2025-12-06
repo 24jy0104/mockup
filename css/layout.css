@@ -1,0 +1,127 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+    /* ← これで中央配置 */
+    padding: 40px 0;
+    /* 上下だけ余白 */
+    font: 18px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #009A37;
+}
+
+th {
+    font-size: 15px;
+    color: #009A37;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+td {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+td a {
+    text-decoration: none;
+}
+
+.field-name {
+    color: #009A37;
+    font-size: 15px;
+}
+
+/* 画面上部「企業名　アイティフォー（申請済）開催情報　～」等の形式時使用 */
+.top-info {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+/* 上の形式時に企業名、情報を横並びにする*/
+.company,
+.event {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* 企業名検索 */
+.search{
+    display: flex;
+    gap: 15px;
+}
+.search-box {
+    width: 250px;
+    height: 15px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 2px solid #009A37;
+}
+
+.search-button {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #009A37;
+    border: none;
+    padding: 0px 0px;
+}
+
+/* 下右寄せのボタン */
+.bottom-btn-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    /* position: fixed; */
+    bottom: 10%;
+    margin-top: 10px;
+}
+
+/* 下左寄せのボタン */
+.bottom-btn-left{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    /* position: fixed; */
+    bottom: 10%;
+    margin-top: 10px;
+}
+
+/* 下両端に分けるボタン */
+.bottom-btn-split{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    /* position: fixed; */
+    bottom: 10%;
+    margin-top: 10px;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    background-color: #009A37;
+    border: none;
+    padding: 10px 20px;
+}

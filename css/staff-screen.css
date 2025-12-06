@@ -1,54 +1,11 @@
-/* ーーー情報編集画面ーーー */
-.companyname-position {
-    width: 80%;
-    margin: 50px auto;
-    display: flex;
-    gap: 150px;
-    /* justify-content: center; */
-    justify-content: left;
-    align-items: center;
-}
+/* ーーー情報編集画面(職員）ーーー */
 
 .company-edit {
     font-size: 15px;
 }
 
-.company-edit a {
-    text-decoration: none;
-}
-
 .delate {
     color: red;
-}
-
-/* テーブル*/
-.graduate-r {
-    border-bottom: 1px solid #009A37;
-}
-
-.graduate-table {
-    width: 90%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    margin: 10px auto;
-}
-
-.graduate-table td {
-    padding: 0px 10px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.graduate-h,
-.request-h {
-    color: #009A37;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-}
-
-.graduate-r {
-    height: 20px;
 }
 
 /* 列幅の指定 */
@@ -88,34 +45,7 @@
     width: 5%;
 }
 
-/* -----申請者一覧画面------*/
-
-/* テーブル */
-.request-info {
-    border-bottom: 1px solid #009A37;
-    height: 60px;
-}
-
-
-.request-table {
-    width: 80%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    margin: 10px auto;
-}
-
-.request-table td {
-    padding: 0px 10px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.request-h {
-    color: #009A37;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-}
+/* -----申請者一覧画面（職員）------*/
 
 /* 列幅の指定 */
 /* 名前 */
@@ -142,45 +72,21 @@
     width: 30%;
 }
 
-/* ----開催一覧/履歴----- */
-
+/* ----開催一覧/履歴（職員）----- */
 .eventlist {
-    width: 80%;
-    margin: 30px auto;
+    /* width: 80%;
+    margin: 30px auto; */
 }
 
 .eventlist-title {
     font-size: 20px;
     border-left: 2px solid #009A37;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     padding-left: 10px;
 }
 
-/* テーブル */
-.eventlist-info {
-    border-bottom: 1px solid #009A37;
-    height: 60px;
-}
-
-
-.eventlist-table {
-    width: 80%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    margin: 10px auto;
-}
-
-.eventlist-table td {
-    padding: 0px 10px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.eventlist-h {
-    color: #009A37;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
+.event-cancel{
+    color: red;
 }
 
 /* 列幅の指定 */
@@ -207,6 +113,8 @@
 .eventlist-table td:nth-child(4) {
     width: 10%;
 } 
+
+
 
 
 

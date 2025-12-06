@@ -1,33 +1,34 @@
 @charset "UTF-8";
 
-body{
-	margin: 0px;
+body {
+    margin: 0px;
     width: 100%;
     height: 100%;
 }
 
+/* ヘッダー部分 */
 .head-part {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 140px;
-	background-color: #009A37;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    background-color: #009A37;
 }
 
 #h-left img {
-	width: 145px;
+    width: 145px;
     background-color: white;
 }
 
 .header-title {
-	color: white;
+    color: white;
     margin-left: 20px;
     margin-right: 80px;
     display: flex;
     flex-direction: column;
-	width: 300px;
-	text-align: center;
-	
+    width: 300px;
+    text-align: center;
+
 }
 
 .title-jp {
@@ -42,14 +43,14 @@ body{
 
 .header-nav {
     display: flex;
-	justify-content: center;
+    justify-content: center;
     gap: 100px;
-	width: 400px;
-    
+    width: 400px;
+
 }
 
 .nav-item {
-	color: white;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,29 +63,38 @@ body{
     margin-bottom: 5px;
 }
 
-/* --- ユーザー名 --- */
+/* ヘッダー部分ユーザー名 */
 .header-user {
-	color: white;
-	text-align: right;
-	margin-right: 35px;
+    color: white;
+    text-align: right;
+    margin-right: 35px;
     margin-left: 40px;
     font-size: 20px;
-
 }
 
-/* 下のボタンを固定するもの */
+main {
+    width: 90%;
+    margin: 0 auto;
+    /* ← これで中央配置 */
+    padding: 40px 0;
+    /* 上下だけ余白 */
+}
+
+/* 下のボタンをページ下部に固定するもの */
 .wrapper {
-    min-height: 100vh;
     /* 画面全体の高さを確保 */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .content {
-  flex: 1; /* コンテンツ部分が伸びてフッターを押し下げる */
+    /* コンテンツ部分が伸びてフッターを押し下げる */
+    flex: 1;
 }
 
-footer{
+/* フッター */
+footer {
     position: fixed;
     bottom: 0;
     left: 0;
