@@ -125,3 +125,64 @@ button{
     border: none;
     padding: 10px 20px;
 }
+
+/* 画面を２分割するとき */
+/* 2分割する */
+.split-screen {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* margin-top: 30px; */
+    flex-wrap: wrap;
+}
+
+/* タイトルとフレームをセットにして左よせにする */
+.left-screen,
+.right-screen {
+    align-items: left;
+    padding-left: 20px;
+}
+
+/* 緑のフレーム */
+.flame{
+    width: 450px;
+    height: 320px;
+    background-color: #a9e2bd;
+    border: 1px solid #009a36;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+/* 登録系画面テーブル中身を左寄せする */
+.registscreen-table td{
+    text-align: left;
+}
+
+/* 列幅の指定 */
+/*項目名*/
+.registscreen-table td:nth-child(1) {
+    width: 30%;
+}
+
+/*入力欄*/
+.registscreen-table td:nth-child(2) {
+    width: auto;
+}
+
+
+/* 登録完了画面系（メールを送りました！の画面） */
+.complete-screen{
+    text-align: center;
+}
+
+.complete-screen img{
+    width: 50px;
+    height: 50px;
+}
+
+input{
+     border: 1px solid #009A37;
+}
+
+
+

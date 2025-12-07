@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/comapanylist.css">
-    <title>卒業生情報入力画面</title>
+    <title>連絡先登録確認画面（在校生/職員）</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                                     <div>企業</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="company-name" class="company-input">
+                                    アイティフォー
                                 </td>
                             </tr>
                             <tr>
@@ -61,7 +61,7 @@
                                     <div>職種</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="job" class="job-input">
+                                    営業
                                 </td>
                             </tr>
                         </table>
@@ -78,7 +78,7 @@
                                     <div>氏名</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="name" class="name-input">
+                                    太田未来
                                 </td>
                             </tr>
 
@@ -87,7 +87,7 @@
                                     <div>学科</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="department" class="department-input">
+                                    情報システム開発科
                                 </td>
                             </tr>
                             <tr>
@@ -95,7 +95,7 @@
                                     <div>学籍番号</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="student-number" class="student-number-input">
+                                    24jy0000
                                 </td>
                             </tr>
                             <tr>
@@ -103,16 +103,14 @@
                                     <div>メールアドレス</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="email" class="email-input">
-                                    <div class="input-note">学校のメールアドレス(@jec.ac.jp)は登録できません</div>
+                                    24jy0000@gmail.com
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div>その他</div>
+                                    <div>備考（任意）</div>
                                 </td>
                                 <td>
-                                    <input type="text" name="other-info" class="other-info-input">
                                 </td>
                             </tr>
                         </table>
@@ -121,7 +119,10 @@
             </div>
 
             <div class="bottom-btn-right">
-                <button type="submit">変更</button>
+                <div class="edit-regist-btn">
+                    <button type="button" onclick="location.href='./RegistEmail.html'">編集</button>
+                    <button type="submit">登録</button>
+                </div>
             </div>
         </form>
 
