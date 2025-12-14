@@ -24,10 +24,10 @@
 
 /* メニューを左右で配置 */
 .apo-menu, .apo-menu-staff {
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     display: grid;
-    gap: 50px 40px;
+    gap: 50px 30px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -36,7 +36,7 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     cursor: pointer;
 }

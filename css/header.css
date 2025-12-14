@@ -8,9 +8,10 @@ body {
 
 /* ヘッダー部分 */
 .head-part {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5% 50% 1fr;
     align-items: center;
-    justify-content: space-between;
+    gap: 10%;
     height: 140px;
     background-color: #009A37;
 }
@@ -22,7 +23,6 @@ body {
 
 .header-title {
     color: white;
-    margin-left: 20px;
     margin-right: 80px;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ body {
 
 .header-nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 100px;
     width: 400px;
 
@@ -66,10 +66,11 @@ body {
 /* ヘッダー部分ユーザー名 */
 .header-user {
     color: white;
-    text-align: right;
+    text-align: center;
     margin-right: 35px;
     margin-left: 40px;
     font-size: 20px;
+    
 }
 
 main {

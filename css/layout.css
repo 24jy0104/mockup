@@ -54,6 +54,15 @@ td a {
     align-items: center;
 }
 
+/* ページタイトル */
+.page-title {
+    text-align: center;
+    color: #009A37;
+    font-size: 25px;
+    font-weight:normal;
+    margin-bottom: 50px;
+}
+
 /* 上の形式時に企業名、情報を横並びにする*/
 .company,
 .event {
@@ -83,6 +92,13 @@ td a {
     background-color: #009A37;
     border: none;
     padding: 0px 0px;
+}
+
+/* ラジオボタンの色と大きさ */
+input[type = radio]{
+    accent-color: #009A37;
+    inline-size:18px;
+    block-size:18px;
 }
 
 /* 下右寄せのボタン */

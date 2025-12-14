@@ -1,0 +1,70 @@
+<!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%> -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/companylist.css">
+    <title>卒業生アポイントメント画面（職員）</title>
+</head>
+
+<body>
+    <header class="head-part">
+        <div id="h-left">
+            <img src="../img/rogo.png" alt="アイコン">
+        </div>
+
+        <div class="header-title" onclick="location.href='./AppointMenu.html'">
+            <div class="title-jp">就活サポート</div>
+            <div class="title-en">Career Support</div>
+        </div>
+
+        <div class="header-user">
+            ようこそ 24jy0119 さん
+        </div>
+    </header>
+
+    <main>
+        <div class="schedulearrange-row">
+            <div class="field-name"> 宛先</div>
+            <div>
+                <div class="toname-toemail">
+                    <div>川原田こうき</div>
+                    <div>24jy0000@gmail.com</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="schedulearrange-row">
+            <div class="field-name">担当者</div>
+            <select>
+                <option>担当者１</option>
+                <option>担当者２</option>
+            </select>
+        </div>
+        <div class="schedulearrange-row">
+            <div class="field-name">件名</div>
+            <textarea class="email-title" rows="1" cols="80"></textarea>
+        </div>
+
+        <div class="schedulearrange-row">
+            <div class="field-name">本文</div>
+            <textarea class="email-text" rows="30" cols="100"></textarea>
+        </div>
+
+        <div class="bottom-btn-right schedulearrange-button">
+            <button type="button" class="schedulearrange-button" onclick="location.href='./CompleteScheduleArrangeSend.html'">日程確認送信</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><small>&copy; 2024 Example Inc.</small></p>
+    </footer>
+
+</body>
+
+</html>
